@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 public class Ejercicio2 {
-  public static void main(String[] args) { System.out.println("Ejercicio 2");
+  public static void main(String[] args) {
+    System.out.println("Ejercicio 2");
+
     // Inicializamos el Scanner para leer desde la entrada estándar (teclado)
     Scanner scanner = new Scanner(System.in);
 
@@ -23,20 +25,29 @@ public class Ejercicio2 {
     if (entradaTipo.equals("a")) {
       double valorHoraAuto = 1.20;
       precioFinal = valorHoraAuto * numHoras;
-      System.out.println("El valor final a pagar es: " + precioFinal);
     } else if (entradaTipo.equals("b")) {
       int valorHoraBus = 2;
-      precioFinal = valorHoraBus * numHoras; // numHoras ya es un entero, no es necesario convertirlo de nuevo
-      System.out.println("El valor final a pagar es: " + (int)precioFinal);
+      precioFinal = valorHoraBus * numHoras;
     } else if (entradaTipo.equals("c")) {
       int valorHoraCamion = 3;
-      precioFinal = valorHoraCamion * numHoras; // numHoras ya es un entero, no es necesario convertirlo de nuevo
-      System.out.println("El valor final a pagar es: " + (int)precioFinal);
+      precioFinal = valorHoraCamion * numHoras;
     } else {
+      // Tipo de vehículo no válido
       System.out.println("Tipo de vehículo no válido. Inténtalo de nuevo.");
+      // Cerramos el Scanner antes de salir
+      scanner.close();
+      return; // Salimos del programa si el tipo de vehículo no es válido
     }
+
+    // Formateamos el precio final para imprimirlo con dos decimales si es necesario
+    String precioFormateado = String.format("%.2f", precioFinal);
+
+    // Imprimimos el valor final a pagar
+    System.out.println("El valor final a pagar es: $" + precioFormateado);
 
     // Cerramos el Scanner para liberar recursos
     scanner.close();
   }
 }
+
+
