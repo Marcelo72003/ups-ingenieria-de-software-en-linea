@@ -1,3 +1,10 @@
+/*2. Escriba un programa en Java que solicite al usuario el tipo de vehículo ('a' para automóvil, 'b'
+para bus, 'c' para camión) y la cantidad de horas que un vehículo pasó en el estacionamiento, y
+devuelva el valor de estacionamiento a pagar según las tarifas que se muestran a continuación.
+Automóvil: $1.20 por hora; bus: $2 por hora; camión: $3 por hora*/
+
+// Alumno: Marcelo Darwin Peña Ochoa
+
 import java.util.Scanner;
 
 public class Ejercicio2 {

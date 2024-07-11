@@ -1,3 +1,8 @@
+/*1. Escriba un programa que, dado un número entero de tres dígitos, construya e imprima otro
+  número entero cuyos dígitos estén en el orden inverso al dado. Por ejemplo, dado 372, el programa
+  imprime 273.*/
+
+// Alumno: Marcelo Darwin Peña Ochoa
 import java.util.Scanner;
 
 public class Ejercicio1 {

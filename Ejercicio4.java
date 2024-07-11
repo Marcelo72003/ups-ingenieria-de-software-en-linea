@@ -1,3 +1,9 @@
+/*4. Escriba un programa que, dado un valor entero en dólares, imprima el número mínimo de
+  denominaciones de billetes en 100, 50, 20, 10, 5 y 1. Utilice el operador ternario (? :) para imprimir
+  solo números de billetes distintos de cero*/
+
+// Alumno: Marcelo Darwin Peña Ochoa
+
 import java.util.Scanner;
 
 public class Ejercicio4 {

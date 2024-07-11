@@ -1,3 +1,15 @@
+/*3. Una tienda mayorista ofrece un descuento sobre la cantidad de artículos comprados, como se
+muestra a continuación.
+Descuento por cantidad
+1 a 9 0%
+10 a 49 3%
+50 a 99 5%
+100 o más 10%
+Escriba un programa que, digitada la cantidad y el precio unitario de un artículo, calcule y muestre
+el precio total después del descuento*/
+
+// Alumno: Marcelo Darwin Peña Ochoa
+
 import java.util.Scanner;
 
 public class Ejercicio3 {
